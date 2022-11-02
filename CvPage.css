@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root{
+	--zra9:#38697a;
+	--chibi:rgb(75, 172, 198);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	
+}
+
+
+body{
+	background: #eff4fd;
+	font: "Nunito",sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	/*position: absolute;
+	left: 50%;
+	transform: translateX(-50%);*/
+
+}
+
+.format{
+	width: 4.5in;
+	height: 643px;
+	background-color: white;
+}
+
+.format .left_bar{
+	width: 1.65in;
+	height: 643px;
+	background-color: #303b3f;
+	
+}
+
+.format .up_bar{
+	width: 4.5in;
+	height: 145px;
+	background-color: #303b3f;
+	
+}
+
+.img_circle{
+	width: 110px;
+    height: 110px;
+    border-radius: 50%;
+	border: 5px solid var(--chibi);
+	position: relative;
+	left: 6px;
+	bottom: 35px;
+
+}
+
+#bottom_bar{
+	width: 4.5in;
+	height: 20px;
+	position: relative;
+	top:  calc(643px - 20px);
+	background-color: rgb(75, 172, 198);
+}
+
+#experience{
+	width: 200px;
+	height: 20px;
+	position: relative;
+	left: 128%;
+	top: 43px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#experience:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#experience:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+#formation{
+	width: 200px;
+	height: 20px;
+	position: relative;
+	left: 128%;
+	top: 165px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#formation:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#formation:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+
+#competence{
+	width: 200px;
+	height: 20px;
+	position: relative;
+	left: 128%;
+	top: 280px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#competence:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#competence:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+#gateau{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top:215px;
+	left: 25px;
+}
+
+#telephone{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 245px;
+	left: 7px;
+}
+
+#courrier{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 270px;
+	left: -12px;
+}
+
+#localisateur{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 303px;
+	left: -30px;
+}
+span{
+	bottom: 40px;
+	position: relative;
+}
+
+
+#qualite{
+	width: 100px;
+	height: 20px;
+	position: relative;
+	left: 20%;
+	top: 105px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#qualite:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#qualite:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+#language{
+	width: 100px;
+	height: 20px;
+	position: relative;
+	left: 20%;
+	top: 190px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#language:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#language:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+#interet{
+	width: 100px;
+	height: 20px;
+	position: relative;
+	left: 20%;
+	top: 265px;
+	border: 1px solid rgb(75, 172, 198);
+	background-color: rgb(75, 172, 198) ;
+}
+
+#interet:after{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(75, 172, 198);
+	left: -10px;
+	top: -1px;
+}
+
+#interet:before{
+	content: "";
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: var(--chibi);
+	right: -10px;
+	top: -1px;
+}
+
+#shapes{
+	position: relative;
+	bottom: 58.7px;
+	right: 11px;
+}
