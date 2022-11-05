@@ -36,7 +36,6 @@ body{
 	width: 1.65in;
 	height: 643px;
 	background-color: #303b3f;
-	
 }
 
 .format .up_bar{
@@ -54,7 +53,6 @@ body{
 	position: relative;
 	left: 6px;
 	bottom: 35px;
-
 }
 
 #bottom_bar{
@@ -73,9 +71,10 @@ body{
 	top: 43px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
 }
 
-#experience:after{
+/* #experience:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -95,7 +94,7 @@ body{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 #formation{
 	width: 200px;
@@ -105,9 +104,11 @@ body{
 	top: 165px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
+
 }
 
-#formation:after{
+/* #formation:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -127,7 +128,7 @@ body{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 
 #competence{
@@ -138,9 +139,10 @@ body{
 	top: 280px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
 }
 
-#competence:after{
+/* #competence:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -160,7 +162,7 @@ body{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 #gateau{
 	width: 15px;
@@ -203,13 +205,16 @@ span{
 	width: 100px;
 	height: 20px;
 	position: relative;
-	left: 20%;
+	left: 10%;
 	top: 105px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
+	padding-left: 10px ;
+	padding-right: 15px;
 }
 
-#qualite:after{
+/* #qualite:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -229,19 +234,22 @@ span{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 #language{
 	width: 100px;
 	height: 20px;
 	position: relative;
-	left: 20%;
+	left: 10%;
 	top: 190px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
+	padding-left: 10px ;
+	padding-right: 15px;
 }
 
-#language:after{
+/* #language:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -261,19 +269,22 @@ span{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 #interet{
 	width: 100px;
 	height: 20px;
 	position: relative;
-	left: 20%;
+	left: 10%;
 	top: 265px;
 	border: 1px solid rgb(75, 172, 198);
 	background-color: rgb(75, 172, 198) ;
+	border-radius: 40px;
+	padding-left: 10px ;
+	padding-right: 15px;
 }
 
-#interet:after{
+/* #interet:after{
 	content: "";
 	width: 22px;
 	height: 22px;
@@ -293,7 +304,7 @@ span{
 	background-color: var(--chibi);
 	right: -10px;
 	top: -1px;
-}
+} */
 
 #shapes{
 	position: relative;
